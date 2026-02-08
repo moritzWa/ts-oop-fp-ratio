@@ -1,0 +1,19 @@
+{
+  "name": "ts-oop-fp-ratio",
+  "version": "1.0.0",
+  "description": "Measure how object-oriented or functional a TypeScript codebase is using AST analysis",
+  "main": "count.ts",
+  "scripts": {
+    "count": "ts-node count.ts"
+  },
+  "keywords": ["typescript", "ast", "oop", "functional", "analysis", "static-analysis"],
+  "author": "Moritz Wallawitsch",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^5.0.0"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.0",
+    "@types/node": "^20.0.0"
+  }
+}
